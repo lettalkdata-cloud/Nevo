@@ -4,3 +4,4 @@ export * from './Header';
 export * from './Footer';
 export { default as ThemeToggle } from './ThemeToggle';
 export * from './WalletAddress';
+export * from './DonateModal';
