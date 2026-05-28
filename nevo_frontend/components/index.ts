@@ -6,6 +6,8 @@ export * from './Footer';
 export * from './Modal';
 export { default as ThemeToggle } from './ThemeToggle';
 export * from './WalletAddress';
+export * from './ProgressBar';
+export * from './Timeline';
 export * from './Spinner';
 export * from './Skeleton';
 export * from './DonateModal';
