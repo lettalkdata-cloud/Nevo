@@ -293,13 +293,7 @@ pub struct PoolContribution {
     pub asset: Address,
 }
 
-#[contracttype]
-#[derive(Clone, Debug, Eq, PartialEq)]
-pub enum ApplicationStatus {
-    Pending = 0,
-    Approved = 1,
-    Rejected = 2,
-}
+
 
 #[contracttype]
 #[derive(Clone, Debug, Eq, PartialEq)]
@@ -335,7 +329,6 @@ pub enum StorageKey {
     Contribution(BytesN<32>, Address),
     PoolContribution(u64, Address),
     PoolContributors(u64),
-    Application(u64, Address),
 
     NextPoolId,
     IsPaused,

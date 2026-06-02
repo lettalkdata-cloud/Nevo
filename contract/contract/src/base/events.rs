@@ -1,5 +1,5 @@
 #![allow(deprecated)]
-use soroban_sdk::{symbol_short, Address, BytesN, Env, String, Symbol};
+use soroban_sdk::{symbol_short, Address, BytesN, Env, String, Symbol, Vec};
 
 use crate::base::types::PoolState;
 
